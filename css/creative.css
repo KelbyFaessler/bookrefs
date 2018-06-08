@@ -9,7 +9,7 @@ body {
 }
 
 hr {
-  max-width: 50px;
+  max-width: 75px;
   border-width: 3px;
   border-color: #F05F40;
 }
@@ -82,9 +82,9 @@ img::-moz-selection {
 
 header.masthead {
   height: 100%;
-  padding-top: 5rem;
+  /*padding-top: 5rem;*/
   /*padding-bottom: 10rem;*/
-  padding-bottom: calc(10rem - 56px);
+  /*padding-bottom: calc(10rem - 56px);*/
   background-image: 
     linear-gradient(
       rgba(36, 12, 0, 0.3),
@@ -107,6 +107,10 @@ header.masthead h1 {
   font-size: 2rem;
 }
 
+header.masthead h3 {
+  font-size: 1.25rem;
+}
+
 header.masthead p {
   font-weight: 700;
   text-shadow: 0px 0px 3px black, 1px 1px black;
@@ -118,40 +122,8 @@ header.masthead h3 {
   font-weight: 700;
 }
 
-p.header-cont-text {
-  /*position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  */
-  /*
-  margin-top: 20%;
-  margin-bottom: 0;
-  */
-  background-color: pink;
-}
-
-@media (min-width: 768px) {
-  header.masthead p {
-    font-size: 1.15rem;
-  }
-}
-
-@media (min-width: 992px) {
-  header.masthead {
-    height: 100vh;
-    min-height: 650px;
-    padding-top: 0;
-    padding-bottom: 0;
-  }
-  header.masthead h1 {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1200px) {
-  header.masthead h1 {
-    font-size: 4rem;
-  }
+.header-text-orange {
+  color: #F05F40;
 }
 
 .service-box {
@@ -191,4 +163,32 @@ p.header-cont-text {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+@media (min-width: 768px) {
+  header.masthead p {
+    font-size: 1.15rem;
+  }
+
+  .btn-xl {
+  padding: 4rem 8rem;
+  }
+}
+
+@media (min-width: 992px) {
+  header.masthead {
+    height: 100vh;
+    min-height: 650px;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  header.masthead h1 {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  header.masthead h1 {
+    font-size: 4rem;
+  }
 }
