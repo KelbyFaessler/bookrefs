@@ -81,7 +81,7 @@ img::-moz-selection {
 }
 
 header.masthead {
-  height: 100%;
+  /*height: 100%;*/
   /*padding-top: 5rem;*/
   /*padding-bottom: 10rem;*/
   /*padding-bottom: calc(10rem - 56px);*/
@@ -104,11 +104,11 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
-header.masthead h3 {
-  font-size: 1.25rem;
+header.masthead h2 {
+  font-size: 1.5rem;
 }
 
 header.masthead p {
@@ -118,12 +118,16 @@ header.masthead p {
   /*background-color: rgba(126, 126, 126, 0.5);*/
 }
 
-header.masthead h3 {
+header.masthead h2 {
   font-weight: 700;
 }
 
 .header-text-orange {
   color: #F05F40;
+}
+
+#header-down-arrow {
+  font-size: 3rem;
 }
 
 .service-box {
@@ -170,8 +174,8 @@ header.masthead h3 {
     font-size: 1.15rem;
   }
 
-  .btn-xl {
-  padding: 4rem 8rem;
+  .btn-primary {
+  padding: 1.5rem 3rem;
   }
 }
 
