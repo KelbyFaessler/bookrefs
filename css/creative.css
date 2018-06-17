@@ -19,10 +19,15 @@ hr.light {
 }
 
 a {
-  color: #F05F40;
+  /*color: #F05F40;*/
+  color: #fff;
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+i {
+  color: #fff;
 }
 
 a:hover {
@@ -50,6 +55,10 @@ h6 {
   text-decoration: underline;
 }
 
+.italic {
+  font-style: italic;
+}
+
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
 }
@@ -58,9 +67,12 @@ h6 {
   color: rgba(255, 255, 255, 0.9);
 }
 
+.text-not-faded {
+  color: rgba(255, 255, 255, 1.0);
+}
 
 section {
-  padding: 4rem 0;
+  padding: 4.5rem 0;
 }
 
 .section-heading {
@@ -139,9 +151,13 @@ header.masthead h2 {
   font-size: 3rem;
 }
 
-.service-box {
-  max-width: 400px;
+#footer p {
+  color: white;
 }
+
+/*.service-box {
+  max-width: 400px;
+}*/
 
 .text-primary {
   color: #F05F40 !important;
